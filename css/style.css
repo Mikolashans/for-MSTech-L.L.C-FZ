@@ -1,0 +1,474 @@
+@font-face {
+    font-family: "Prata";
+    src: local("Prata-Regular"),
+        url("../fonts/prata-regular.woff2") format("woff2"),
+        url("../fonts/prata-regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arial";
+    src: local("Arial-Regular"),
+        url("../fonts/arial-regular.woff2") format("woff2"),
+        url("../fonts/arial-regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arial";
+    src: local("Arial-Regular-Italic"),
+        url("../fonts/arial-regularitalic.woff2") format("woff2") url("../fonts/arial-regularitalic.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: "Arial", "Prata", "Open-Sans", "sans-serif";
+    font-weight: 400;
+    background-color: #333;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.text {
+    margin: 0;
+    color: #fff;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: tomato;
+}
+
+.link {
+    transition: color .4s ease-in-out;
+}
+
+.btn {
+    transition: background-color .4s ease-in-out;
+}
+
+.btn:hover {
+    background-color: chocolate;
+}
+
+.scroll {
+    opacity: 50%;
+}
+
+.flex {
+    display: flex;
+}
+
+.section {
+    /* padding-bottom: 100px; */
+    background-color: #333;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #222;
+}
+
+.main__container {
+    position: relative;
+    width: 1920px;
+    justify-content: space-between;
+}
+
+.main__container2 {
+    padding-top: 297px;
+    padding-right: 265px;
+    padding-bottom: 50px;
+}
+
+.burger {
+    display: none;
+}
+
+
+
+.header {
+    position: fixed;
+    width: 45%;
+    padding: 15px 3px;
+    background-color: #222;
+    z-index: 1000;
+}
+
+.header-container {
+    /* width: 780px; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Prata";
+    font-size: 36px;
+}
+
+.nav__list {
+    padding-right: 15px;
+    column-gap: 30px;
+}
+
+.nav__link {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+
+.main__info {
+    flex-direction: column;
+    width: 80%;
+    padding-top: 26px;
+    padding-left: 161px;
+    letter-spacing: 0.03em;
+    background-color: #222;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.wrapper {
+    width: 155px;
+}
+
+.main__btn {
+    width: 190px;
+    height: 95px;
+}
+
+.main__title {
+    margin-bottom: 20px;
+    font-family: "Prata";
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 120%
+}
+
+.main__descr {
+    margin-bottom: 25px;
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 120%
+}
+
+.main__list {
+    /* padding: 10px; */
+    margin-bottom: 38px;
+}
+
+.main__item {
+    padding-left: 59px;
+    /* margin-bottom: 13px; */
+    background-image: url("../img/tick.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.main__item:not(:last-child) {
+    margin-bottom: 13px;
+}
+
+.main__options {
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 110%;
+}
+
+.big-text {
+    font-family: "Prata";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+}
+
+.main__btn {
+    border-radius: 4px;
+    font-family: "Arial";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.rooms {
+    padding-top: 100px;
+}
+
+.rooms__info {
+    width: 720px;
+    padding: 53px 53px 0 53px;
+}
+
+.rooms__item {
+    padding: 40px 0;
+    border-bottom: 1px solid #55565a;
+}
+
+.rooms__text {
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.rooms__img-1 {
+    width: 32.5%;
+}
+
+.rooms__img-2 {
+    width: 30%;
+}
+
+.rooms__ico {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.rooms__btn {
+    width: 100%;
+    padding: 32px 0;
+    border-radius: 4px;
+    font-family: "Arial";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.form__container {
+    position: relative;
+    border-radius: 30px;
+    padding: 100px 160px 0 160px;
+}
+
+.palm {
+    position: absolute;
+    width: 40%;
+    right: 0%;
+    top: 8px;
+}
+
+.form {
+    position: relative;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 72px 40% 72px 134px;
+    /* padding-right: 40%; */
+    background-color: #fff;
+    background-image: url("../img/8-8\ 3.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.form__palm {
+    position: absolute;
+    top: -12%;
+    right: -10%;
+    width: 50%;
+    height: 120%;
+}
+
+.form__title {
+    width: 60%;
+    margin-bottom: 45px;
+    font-family: "Prata";
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 110%;
+    color: #38535d;
+}
+
+.input {
+    border: 2px solid #d6d6d6;
+    border-radius: 4px;
+    padding: 13px 20px 13px 38px;
+    width: 95%;
+    height: 65px;
+}
+
+.input::placeholder {
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #55565a
+}
+
+.input__name {
+    margin-bottom: 13px;
+}
+
+.input__email {
+    margin-bottom: 25px;
+}
+
+.checkbox {
+    margin-bottom: 32px;
+}
+
+.label {
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 130%;
+    color: #55565a
+}
+
+.checkbox__input {
+    margin-right: 16px;
+}
+
+.form__btn {
+    width: 95%;
+    height: 100px;
+    border-radius: 4px;
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-transform: uppercase;
+    background-color: #282829;
+    color: #fff;
+}
+
+.more {
+    border-bottom: 1px solid #d5c9be;
+    border-top: 1px solid #d5c9be;
+}
+
+.more-links {
+    justify-content: center;
+    padding: 40px 0;
+    column-gap: 60px;
+}
+
+.more-links__link {
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer {
+    background-color: #333;
+}
+
+.footer__container {
+    justify-content: space-between;
+    padding: 50px 180px 100px 160px;
+    background-color: #222;
+}
+
+.footer__logo {
+    margin-bottom: 54px;
+}
+
+.footer__copy {
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff
+}
+
+.social {
+    margin-bottom: 63px;
+    column-gap: 32px;
+}
+
+.policy {
+    text-align: center;
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #d5c9be;
+}
+
+.footer__btn {
+    margin-bottom: 38px;
+    border-radius: 4px;
+    width: 180px;
+    height: 78px;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222;
+}
+
+.footer_descr {
+    font-family: "Arial";
+    text-align: right;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #d5c9be;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none; /* Чтобы не мешать взаимодействию с заголовком */
+    z-index: 5;
+}

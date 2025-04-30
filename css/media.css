@@ -1,0 +1,369 @@
+@media(max-width: 1600px) {
+
+    .header {
+        left: 30px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .main__container2 {
+        padding-top: 210px;
+    }
+    .main__info  {
+        padding-left: 80px;
+    } 
+
+    .rooms__text  {
+        font-size: 20px;
+        line-height: 110%;
+    }
+
+    .rooms__item {
+        padding: 20px 0;
+    }
+
+    .form__container {
+        padding: 60px 80px 0 80px;
+    }
+    
+    .form__title {
+        font-size: 40px;
+    }
+    
+    .input {
+        width: 85%;
+        height: 55px;
+    } 
+
+    .form__btn {
+        width: 85%;
+        height: 65px;
+    } 
+
+}
+
+@media(max-width: 1440px) {
+    .nav__list {
+        column-gap: 14px;
+    }
+
+    .main__container2 {
+        padding-top: 105px;
+        padding-right: 110px;
+    }
+
+    .main__title {
+        font-size: 45px;
+    }
+
+    .rooms__ico {
+        flex-shrink: 0.5;
+    }
+
+    .rooms__info  {
+        padding: 15px 30px 0 30px;
+    }
+
+    .rooms__item  {
+        padding: 15px 0;
+    }
+
+    .rooms__text {
+        font-size: 17px;
+    }
+
+    .rooms__btn {
+        font-size: 17px;
+        line-height: 0;
+    }
+
+    .form {
+        padding: 35px 40% 45px 50px;
+    }
+
+    .form__title {
+        font-size: 35px;
+    }
+
+    .more-links__link {
+        font-size: 17px;
+    }
+
+    .footer__btn {
+        height: 65px;
+    }
+    .footer__container {
+        padding: 50px 110px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .main__title {
+        font-size: 30px;
+    }
+
+    .main__descr {
+        font-size: 25px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .wrapper {
+        width: 135px;
+    }
+
+    .big-text {
+        font-size: 25px;
+    }
+
+    .main__options {
+        font-size: 17px;
+    }
+    
+    .main__item {
+        padding-left: 50px;
+    }
+
+    .main__btn  {
+        width: 150px;
+        height: 70px;
+        font-size: 20px;
+    }
+
+    .main__info {
+        width: 90%;
+    }
+    .nav__link {
+        font-size: 13px;
+    }
+
+    .rooms {
+        padding-top: 60px;
+    }
+
+    .rooms__item {
+        padding: 10px 0;
+    }
+
+    .rooms__text {
+        font-size: 14px;
+    }
+
+    .form__container {
+        padding: 40px 40px 0 40px;
+    }
+
+    .form__title {
+        font-size: 30px;
+        width: 75%;
+    }
+
+    .form__palm {
+        right: -3%;
+    }
+
+    .input {
+        height: 45px;
+    }
+
+    .form__btn {
+        height: 50px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .nav {
+        display: none;
+    }
+
+    .burger {
+        position: relative;
+        display: block;
+        width: 30px;
+        height: 2px;
+        border-radius: 20px;
+        background-color: #fff;   
+    }
+
+    .burger::after {
+        position: absolute;
+        content: "";
+        display: block;
+        top: -10px;
+        width: 30px;
+        height: 2px;
+        border-radius: 20px;
+        background-color: #fff;
+    }
+
+    .burger::before {
+        position: absolute;
+        content: "";
+        display: block;
+        top: 10px;
+        width: 30px;
+        height: 2px;
+        border-radius: 20px;
+        background-color: #fff;
+    }
+
+    .main__container2 {
+        padding-top: 75px;
+    }
+
+    .main__info {
+        width: 130%;
+        padding-left: 35px;
+    }
+
+    .main__title {
+        font-size: 20px;
+    }
+
+    .main__descr {
+        font-size: 15px;
+    }
+
+    .main__btn {
+        width: 130px;
+        height: 50px;
+    }
+
+    .rooms {
+        padding-top: 40px;
+    }
+
+    .rooms__info {
+        padding: 10px 15px 0 15px;
+    }
+
+    .rooms__item {
+        padding: 7px 0;
+    }
+
+    .rooms__ico {
+        margin-right: 10px;
+    }
+
+    .rooms__btn {
+        padding: 25px 0;
+    }
+
+    .form__title {
+        font-size: 23px;
+    }
+
+    .input {
+        height: 30px;
+    }
+
+    .input::placeholder {
+        font-size: 20px;
+    }
+
+    .form__btn {
+        height: 30px;
+        line-height: 0;
+        font-size: 20px;
+    }
+
+    .form {
+        background-position-x: 80px;
+    }
+
+    .footer__container {
+        padding: 35px 30px;
+    }
+
+    .footer__logo {
+        margin-bottom: 45px;
+    }
+
+    .social {
+        margin-bottom: 25px;
+        column-gap: 15px;
+    }
+    .footer__btn {
+        height: 40px;
+        width: 150px;
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width: 767px) {
+    .main__container,
+    .rooms__container {
+        flex-direction: column;
+    }
+
+    .main__info {
+        width: 100%;
+    }
+
+    .main__container2 {
+        padding-right: 5px;
+        padding-top: 75px;
+    }
+
+    .rooms__img-1,
+    .rooms__img-2 {
+        width: 100%;
+    }
+
+    .rooms__info {
+        width: 100%;
+        padding: 0;
+    }
+
+    .form__container {
+        padding: 10px 10px 0 10px;
+    }
+
+    .form {
+        padding: 10px;
+        background-image: none;
+    }
+
+    .form__palm {
+        display: none;
+    }
+
+    .form__title  {
+        font-size: 20px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .input__email,
+    .checkbox  {
+        margin-bottom: 15px;
+    }
+
+    .input,
+    .form__btn {
+        width: 100%;
+    }
+
+    .more-links {
+        column-gap: 40px;
+    }
+
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+        padding: 20px 10px;
+    }
+
+    .footer__logo {
+        margin-bottom: 15px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+}
